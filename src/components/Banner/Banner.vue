@@ -109,51 +109,52 @@ export default {
 
 <style lang="stylus" rel="stylesheet/stylus" >
 .swiper-container
-  width: 100%
-  height: 370px
+  width 100%
+  height 370px
+  margin-top 150px
   .swiper-wrapper
-    width: 100%
-    height: 100%
+    width 100%
+    height 100%
     .swiper-slide
-      width: 100%
-      height: 100%
+      width 100%
+      height 100%
       img
-        width: 100%
+        width 100%
   .swiper-pagination-bullets
-    margin-bottom: 20px
+    margin-bottom 20px
     .swiper-pagination-bullet
-      width: 40px
-      height: 4px
-      border-radius: 0
-      background: #fff
-      opacity: 0.4
+      width 40px
+      height 4px
+      border-radius 0
+      background #fff
+      opacity 0.4
       &.swiper-pagination-bullet-active
-        opacity: 1
-        background: #fff
+        opacity 1
+        background #fff
 .policy
-  width: 100%
-  height: 72px
+  width 100%
+  height 72px
   .grow
-    display: flex
-    justify-content: space-around
-    align-items: center
-    width: 100%
-    height: 100%
-    padding: 0 30px
-    box-sizing: border-box
+    display flex
+    justify-content space-around
+    align-items center
+    width 100%
+    height 100%
+    padding 0 30px
+    box-sizing border-box
     .item
-      height: 36px
-      line-height: 36px
+      height 36px
+      line-height 36px
       a
-        display: inline-block
+        display inline-block
         .u-icon
-          display: inline-block
-          width: 32px
-          height: 32px
-          background-size: 32px
-          vertical-align: middle
+          display inline-block
+          width 32px
+          height 32px
+          background-size 32px
+          vertical-align middle
         .text
-          font-size: 24px
-          color: #333
-          vertical-align: middle
+          font-size 24px
+          color #333
+          vertical-align middle
 </style>
